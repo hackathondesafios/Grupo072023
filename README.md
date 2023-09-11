@@ -29,7 +29,7 @@ _trivias_ de diversas temáticas (ciencia, series, televisión, etc.).
 
 **¿Qué tengo que hacer exactamente?** Deberán armar el proyecto como grupo de una aplicación Web de una _trivia_. Sin prisa, pero sin pausa.
 
-El objetivo principal de este encuentro que estamos realizando es que puedan realizar un proyecto grupal, totalmente integral. Para algunos no es la primera vez, y es por ellos que les pediremos que sean los lideres del grupo, para que desde su experiencia puedan construir lo solicitado. Y para otros esta será su primer experiencia con lo cual esperamos que puedan aprender mucho del entorno diario de una rutina de trabajo real que existe hoy en dia en cualquier empresa o actividad que lleve a cabo un desarrollo de software. Esperamos que tengan una experiencia desarrollando aplicaciones Web que interactúen con las usuarias a través del navegador.
+El objetivo principal de este encuentro que estamos llevando a cabo es que puedan realizar un proyecto grupal, totalmente integral. Para algunos no es la primera vez, y es por ello que les pediremos que sean los lideres del grupo, para que desde su experiencia puedan construir lo solicitado. Y para otros esta será su primer experiencia con lo cual esperamos que puedan aprender mucho del entorno diario de una rutina de trabajo real que existe hoy en día en cualquier empresa o actividad que lleve a cabo un desarrollo de software. Esperamos que tengan una experiencia desarrollando aplicaciones Web que interactúen con las usuarias a través del navegador.
 
 La temática no es libre, te ayudaremos y te brindaremos una lista de preguntas y respuestas, para que el grupo piense en cómo debe ser la experiencia para el usuario. Piensen en las pantallas, el flujo, los mensajes, colores, etc.
 
@@ -45,6 +45,12 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 ### Web APIs
 
 ### Docker 
+
+### VPS
+
+### Free DNS
+
+### Apache Web Server
 
 ### Mysql
 
@@ -75,7 +81,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 * Hay que ocuparse de que todas las partes puedan hacer y aprender de todo. Esto no se trata 
 de "repartir" el trabajo para hacer "más". El objetivo es aprender 
 colaborativamente, no "terminar y entregar".
-* Queremos verlos aprender lo que aún no sabes. Sé transparente para que podamos 
+* Queremos verte aprender lo que aún no sabes. Sé transparente para que podamos 
 entender tu proceso de aprendizaje. Nos interesa el proceso y no solamente el
 resultado final.
 * Queremos verlos disfrutar, ya que esto es parte de nuestra forma de vida elegida.
@@ -85,7 +91,7 @@ resultado final.
 Algo que siempre ayuda a "poner en concreto” lo que tienes en mente, es hacer un
 simple prototipo en papel y lápiz **de todo el proyecto**. Dibujar es un proceso
 rápido que permite entender cómo, cuándo y dónde suceden las cosas;
-dónde exactamente debe decir tal o cual cosa, qué pasa si la usuaria hace A o B,
+dónde exactamente debe decir tal o cual cosa, qué pasa si el usuario/a hace A o B,
 dónde debe hacer _click_, qué información exactamente quieres mostrarle, etc.
 **Dedica un máximo de dos horas a esto antes de ponerte a codear**.
 
@@ -113,7 +119,7 @@ todo antes de comenzar. (La consigna de Divide y Venceras aplica)
 
 ## 6. Alcance del proyecto
 Sabemos que cada uno de ustedes sabe un poco más o un poco menos de Desarrollo Web;
-no olvidamos que cada una tiene experiencias de vida y motivaciones distintas, 
+no olvidamos que cada uno tiene experiencias de vida y motivaciones distintas, 
 personalidad diferente, aprenden a su propio ritmo, etc.(Fuimos o somos sus docentes) Pretender que todo lo 
 anterior no existe y pedir a todos que logren aprender y completar lo mismo sería 
 absurdo. Te proponemos trabajar en hitos o etapas incrementales según tus 
@@ -121,7 +127,7 @@ posibilidades **No esperamos que todos completen los hitos**.
 
 No trabajes como si fuera una fábrica haciendo tooooooooooooooooooooooooodo el 
 HTML y CSS de todas las pantallas que imaginaste para luego comenzar con el 
-toooooooooooooooooooooodo el desarrolllo en el back end y la funcionalidad. El riesgo de trabajar 
+toooooooooooooooooooooodo el desarrolllo en el backend y la funcionalidad. El riesgo de trabajar 
 así es que consigas muchas partes sin ninguna funcionalidad o a medias y que 
 aprendas poco; tampoco hagas lo inverso, un montón de funcionalidad en la consola 
 pero que no tiene una interfaz para ser utilizada por una usuario no-_developer_.
@@ -206,7 +212,8 @@ de tu repositorio.
 
 ####  Entrega
 
-* Todo el proyecto debe estar como entregable en un link funcional, para ellos hemos creado un repositorio por grupo en donde el lider del grupo nos indicara los usuarios de su grupo para poder brindarle acceso al mismo. Puede ir realizando commits en forma individual acorde a las tareas asignadas.
+* Todo el proyecto debe estar como entregable en un link funcional, para ello hemos creado un repositorio por grupo en donde el lider del grupo nos indicará los usuarios de su grupo para poder brindarle acceso al mismo. Puedes ir realizando commits en forma individual acorde a las tareas asignadas.
+* También tienes disponible un usuario en un VPS según tu grupo: Ej. user: "grupo1" pass: "grupo1" además tienen disponible por grupo una base de datos llamada "grupoX_db" con todos los privilegios para tu usuario. Recordá que pueden gestionar la BD desde tu CLI y si deseas hacerlo mediante phpmyadmin debés configurar antes tu virtuahost en apache. Para hacerlo tienes además disponible un subdominio con la forma grupoX.practicas.com.ar el cual se encuentra ya respondiendo consultas solo debes configurar el virtualhost.
 
 ## 8. Consideraciones técnicas
 
