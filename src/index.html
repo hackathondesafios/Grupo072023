@@ -1,13 +1,36 @@
+
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js"></script>
-  </body>
+<html>
+<head>
+  <title>Juego de Preguntas y Respuestas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Juego de Preguntas y Respuestas</h1>
+  <div id="question-container">
+    <h2 id="question">¿Cuál es la capital de Francia?</h2>
+    <button onclick="checkAnswer('Paris')">Paris</button>
+    <button onclick="checkAnswer('Londres')">Londres</button>
+    <button onclick="checkAnswer('Roma')">Roma</button>
+    <button onclick="checkAnswer('Madrid')">Madrid</button>
+  </div>
+  <div id="score">Puntuación: 0</div>
+
+  <script>
+    let score = 0;
+    const questionElement = document.getElementById('question');
+    const scoreElement = document.getElementById('score');
+
+    function checkAnswer(answer) {
+      if (answer === 'Paris') {
+        score++;
+      }
+     
+      questionElement.textContent = '¿Cuál es la capital de España?';
+      scoreElement.textContent = 'Puntuación: ' + score;
+    }
+  </script>
+</body>
 </html>
+```
+
